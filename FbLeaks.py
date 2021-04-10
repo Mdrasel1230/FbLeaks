@@ -73,5 +73,3 @@ if run !=0:
 	print(run)
 else:
 	print("BadLuck :) Not Found!")	
-
-#print(run)
