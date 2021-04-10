@@ -65,7 +65,7 @@ def cmdline(command):
 	return process.communicate()[0]
 run = cmdline(go)
 
-if run !=0:
+if len(run) !=0:
 	print("Found!"+"\n")
 	run = str(run).replace("b'", "")
 	run = str(run).replace("'", "")
