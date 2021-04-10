@@ -3,7 +3,6 @@ import re
 import requests
 import argparse
 import sys
-import subprocess
 from subprocess import PIPE, Popen
 from bs4 import BeautifulSoup
 
